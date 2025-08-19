@@ -108,7 +108,11 @@ button.button2 {
 }
 
 .two {
-    padding-bottom: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 136px;
 }
 
 .info-header {
@@ -116,8 +120,8 @@ button.button2 {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .info img {
@@ -150,4 +154,25 @@ button.button2 {
 
 .three {
     background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 10%;
+}
+
+.quote {
+    width: 780px
+}
+
+.quote-txt {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.author {
+    text-align: right;
+    font-weight: bold;
+    padding-right: 20px;
 }
