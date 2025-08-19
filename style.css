@@ -12,6 +12,8 @@ body {
     margin: 0;
 }
 
+/* First box starts here */
+
 .one,
 .footer {
     background-color: #1F2937;
@@ -103,9 +105,7 @@ button.button1 {
     border: none;
 }
 
-button.button2 {
-    border: solid #ffffff 2px;
-}
+/* Second box starts here */
 
 .two {
     display: flex;
@@ -153,6 +153,7 @@ button.button2 {
     font-weight: 300;
 }
 
+/* Third box starts here */
 
 .three {
     background-color: #E5E7EB;
@@ -179,4 +180,43 @@ button.button2 {
     padding-right: 20px;
     padding-top: 5px;
     font-size: 18px;
+}
+
+/* Fourth box starts here  */
+
+.four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 136px;
+    padding-bottom: 136px;
+}
+
+.signUp {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    border-radius: 8px;
+    padding: 50px 100px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.signUp,
+button.button2 {
+    background-color: #3882f6;
+    color: #F9FAF8;
+}
+
+button.button2 {
+    border: solid #ffffff 2px;
+}
+
+.big-txt {
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.small-txt {
+    font-weight: 300;
 }
