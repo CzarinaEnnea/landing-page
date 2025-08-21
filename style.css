@@ -188,8 +188,7 @@ button.button1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 136px;
-    padding-bottom: 136px;
+    padding: 136px 30px;
 }
 
 .signUp {
