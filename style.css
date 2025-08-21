@@ -149,8 +149,8 @@ button.button1 {
 .text {
     text-align: center;
     font-size: 18px;
-    padding-top: 10px;
     font-weight: 300;
+    padding: 10px 0px;
 }
 
 /* Third box starts here */
